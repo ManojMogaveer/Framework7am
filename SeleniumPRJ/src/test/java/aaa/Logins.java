@@ -58,11 +58,5 @@ public class Logins {
 		passtf.sendKeys("123");
 		loginbtn.click();
 	}
-//pull back
-	
-	//push
-
-	//pull back
-
-	//pull back
+//pull
 }
