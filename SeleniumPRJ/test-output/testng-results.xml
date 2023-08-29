@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-25T14:43:45 IST" name="Default suite" finished-at="2023-02-25T14:43:46 IST" duration-ms="166">
+    <groups>
+    </groups>
+    <test started-at="2023-02-25T14:43:45 IST" name="Default test" finished-at="2023-02-25T14:43:46 IST" duration-ms="166">
+      <class name="aaa.Modifycont">
+        <test-method signature="createcontact()[pri:0, instance:aaa.Modifycont@7e7be63f]" started-at="2023-02-25T14:43:46 IST" name="createcontact" finished-at="2023-02-25T14:43:46 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method signature="modifycontact()[pri:0, instance:aaa.Modifycont@7e7be63f]" started-at="2023-02-25T14:43:46 IST" name="modifycontact" finished-at="2023-02-25T14:43:46 IST" depends-on-methods="aaa.Modifycont.createcontact" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycontact -->
+        <test-method signature="deletecontact()[pri:0, instance:aaa.Modifycont@7e7be63f]" started-at="2023-02-25T14:43:46 IST" name="deletecontact" finished-at="2023-02-25T14:43:46 IST" depends-on-methods="aaa.Modifycont.modifycontact" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecontact -->
+      </class> <!-- aaa.Modifycont -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
